@@ -31,6 +31,8 @@ shortcut Explanation for shortcut, eg: ciw (C+I+W) to change inner word
 `[[`	Jump to function start  
 `[{`	Jump to block start  
 `$`	    move to the end of line  
+`Ctrl-O`    goes back
+`Ctrl-I`    goes forward
 
 ## Set Leter/Case
 `:set ignorecase` ignore cases in searches  
@@ -47,7 +49,8 @@ shortcut Explanation for shortcut, eg: ciw (C+I+W) to change inner word
 `:23r infile` Insert the content of infile under line 23  
 
 ## File explorer
-`:e Space Ctrl-D` Open integrated file explorer  
+`:e .` open integrated file explorer  
+`:e Space Ctrl-D` or `:e tab` show file to be open  
 `:e filename` Edit filename in current window  
 `:Sex` Split window and open integrated file explorer  
 `:ls` List buffers  
@@ -56,6 +59,7 @@ shortcut Explanation for shortcut, eg: ciw (C+I+W) to change inner word
 `:args *.php` Open file list  
 `:grep expression *.php` Returns a list of .php files contening expression  
 `gf` Open file name under cursor  
+`:b#` Goes back to previously edited buffer, after `:e`
 
 ## Interact with Unix
 `:!pwd`     Execute the pwd unix command, then returns to Vi  
