@@ -9,6 +9,8 @@ This repitory consist of 3 parts:
 
 3. VIM config
 
+I used both gedit-vim-mode and vim-tiny for my editing activity.
+
 ## Learn VIM
 1. VIMtutor
 First, you should install vim and vim-runtim. In Ubuntu,
