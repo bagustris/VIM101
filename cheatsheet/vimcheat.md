@@ -80,7 +80,7 @@ shortcut Explanation for shortcut, eg: ciw (C+I+W) to change inner word
 `:hide` Close current window  
 `:only` Close all windows, excepted current  
 `:b 2` Open #2 in this window  
-`:new abc.txt edit abc.txt in new window  
+`:new abc.txt` edit abc.txt in new window  
 
 ## Auto-completion
 `Ctrl+n Ctrl+p` (in insert mode) Complete word  
@@ -88,11 +88,12 @@ shortcut Explanation for shortcut, eg: ciw (C+I+W) to change inner word
 `Ctrl+x Ctrl+k` Complete with dictionnary  
 `Ctrl+x Ctrl+f` Complete filename/omni completion  
 
-## Tabs
-Use terminal tab instead of vim tab or splitting mode  
-
-## Marks
-Use visual mode instead  
+## Insert
+`i` insert text in current cursor
+`a` insert text after current cursor
+`A` insert text in the end of line
+`o` insert text below current line
+`O` insert text above current line
 
 ## Text indent
 `:set autoindent` Turn on auto-indent  
@@ -145,7 +146,6 @@ Use visual mode instead
     2. Press * to search for the next occurrence.  
     3. Type ciw (change inner word) then bar then press Escape.  
     4. Press n (move to next occurrence) then .  
-
 Cut/copy-paste interacively:  
     1. press v to begin,  
     2. V to select whole line, Ctrl-v/Ctrl-q to select block  
