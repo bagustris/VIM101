@@ -1,8 +1,9 @@
 # vimcheat.sh: the vim cheatsheet
 Ref: https://www.catswhocode.com/blog/vim-cheat-sheet-for-2016  
-Usage: less `vimcheat.sh` then `/typewhatyoulookfor`  
-:command arguments Explanation for command inside VIM OR  
-shortcut Explanation for shortcut, eg: ciw (C+I+W) to change inner word  
+Usage:  
+$ less `vimcheat.sh` then `/typewhatyoulookfor`  
+:command <space> arguments <space> Explanation: for command inside VIM OR  
+shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word  
 
 ## Basics
 `:w`	Save file  
@@ -146,7 +147,7 @@ shortcut Explanation for shortcut, eg: ciw (C+I+W) to change inner word
     2. Press * to search for the next occurrence.  
     3. Type ciw (change inner word) then bar then press Escape.  
     4. Press n (move to next occurrence) then .  
-Cut/copy-paste interacively:  
+Cut/copy-paste interactively:  
     1. press v to begin,  
     2. V to select whole line, Ctrl-v/Ctrl-q to select block  
     3. move cursor by pressing arrow key  
