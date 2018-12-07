@@ -90,11 +90,11 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `Ctrl+x Ctrl+f` Complete filename/omni completion  
 
 ## Insert
-`i` insert text in current cursor
-`a` insert text after current cursor
-`A` insert text in the end of line
-`o` insert text below current line
-`O` insert text above current line
+`i` insert text in current cursor  
+`a` insert text after current cursor  
+`A` insert text in the end of line  
+`o` insert text below current line  
+`O` insert text above current line  
 
 ## Text indent
 `:set autoindent` Turn on auto-indent  
