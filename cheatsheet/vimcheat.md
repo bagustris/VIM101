@@ -143,12 +143,30 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `:%s/old/new/gc	Replace` all occurences with confirmation  
 `cw` change word  
 `ciw` change inner word:  
-    1. Put the cursor on foo.  
-    2. Press * to search for the next occurrence.  
-    3. Type ciw (change inner word) then bar then press Escape.  
-    4. Press n (move to next occurrence) then .  
+- Put the cursor on foo.  
+- Press * to search for the next occurrence.  
+- Type ciw (change inner word) then bar then press Escape.  
+- Press n (move to next occurrence) then .  
 Cut/copy-paste interactively:  
-    1. press v to begin,  
-    2. V to select whole line, Ctrl-v/Ctrl-q to select block  
-    3. move cursor by pressing arrow key  
-    4. press d to cut, or y to copy  
+- press v to begin,  
+- V to select whole line, Ctrl-v/Ctrl-q to select block  
+- move cursor by pressing arrow key  
+    
+## Comment
+- press Esc/Ctrl-c (to leave editing or other mode)
+- hit ctrl+v (visual block mode)
+- use the up/down arrow keys to select lines you want (it won't highlight everything - it's OK!)
+- Shift+i (capital I)
+- insert the text you want, i.e. #
+- press EscEsc
+
+## Uncomment
+- press Esc/Ctrl-c (to leave editing or other mode)
+- hit ctrl+v (visual block mode)
+- use the ↑/↓ arrow keys to select the lines to uncomment.
+- If you want to select multiple characters, use one or combine these methods:
+    use the left/right arrow keys to select more text, 
+    to select chunks of text use shift + ←/→ arrow key, 
+    you can repeatedly push the delete keys below, like a regular delete button,
+    press d or x to delete characters, repeatedly if necessary.
+- press d to cut, or y to copy  
