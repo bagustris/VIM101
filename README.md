@@ -41,12 +41,14 @@ There are two cheatsheet available in the `cheatsheet` directory:
 
 ## VIM config
 In the directory `config`, there is a `.vimrc` file that I used to configure my VIM. 
-Mostly I works on python, Latex and Octave, therefor the config is intended to 
+Mostly I works on Python, Latex and Octave, therefor the config is intended to 
 optimize those languages. I modify these `.vimrc` file from `fisa-vim-config` repository.
 The detail is given in the directory.
 
 
-## Update
-2019-06-28: 
-* Update to VIM 8  
-* install Kite for python completion
+## Update/Changelog
+* 2019-06-28: 
+  - Update to VIM 8  
+  - install Kite for python completion
+* 2019-09-12: 
+  - Use fisadev to make .vimrc (disable colorscheme and neocomplcache)
