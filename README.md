@@ -13,7 +13,7 @@ I used both gedit-vim-mode and vim-tiny for my editing activity.
 
 ## Learn VIM
 1. VIMtutor
-First, you should install vim and vim-runtim. In Ubuntu,
+First, you should install vim and vim-runtime. In Ubuntu,
 
 ```
 $ sudo apt install vim vim-runtime
@@ -52,3 +52,5 @@ The detail is given in the directory.
   - install Kite for python completion
 * 2019-09-12: 
   - Use fisadev to make .vimrc (disable colorscheme and neocomplcache)
+* 2019-12-20: 
+  - Back to plain .vimrc (only use Kite, vimtex, etc)
