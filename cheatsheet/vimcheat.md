@@ -150,7 +150,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
  
 Cut/copy-paste interactively (Visual Mode):  
  - press v to begin,  
- - V to select whole line, Ctrl-v/Ctrl-q to select block  
+ - pres V (capital V) to select whole line, Ctrl-v/Ctrl-q to select block  
  - move cursor by pressing arrow key 
  - press d to cut, or y to copy  
  - press p to paste after current line
