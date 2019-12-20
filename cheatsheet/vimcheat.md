@@ -13,7 +13,8 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `:x`	Write file (if changes has been made) and exit  
 `:r filename`     Read filename  
 `:saveas filename`	Saves file as filename (same as :wq filename OR :sav filename)  
-`$vim +linenumber` file	open file on linenumber  
+`$vim +linenumber file` open file on linenumber
+`$vim '+normal Go' file` open file and insert last line (Go)
 `.`     Repeats the last change made in normal mode  
 `5.`    Repeats 5 times the last change made in normal mode  
 
@@ -36,6 +37,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `$`	    move to the end of line  
 `Ctrl-O`    goes back
 `Ctrl-I`    goes forward
+`'"`        goes to last edit
 
 ## Set Leter/Case
 `:set ignorecase` ignore cases in searches  
