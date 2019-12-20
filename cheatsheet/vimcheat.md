@@ -101,6 +101,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `A` insert text in the end of line  
 `o` insert text below current line  
 `O` insert text above current line  
+`pu=strftime('%Y-%m-%d')` insert date (eq. '%F')
 
 ## Text indent
 `:set autoindent` Turn on auto-indent  
