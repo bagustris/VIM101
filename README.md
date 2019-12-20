@@ -39,6 +39,9 @@ There are two cheatsheet available in the `cheatsheet` directory:
 1. vim-cheatsheet.md
 2. vim-cheat-sheet-en.pdf
 
+Reference for the cheatsheet.md:  
+- https://catswhocode.com/vim-cheat-sheet/ 
+
 ## VIM config
 In the directory `config`, there is a `.vimrc` file that I used to configure my VIM. 
 Mostly I works on Python, Latex and Octave, therefor the config is intended to 
