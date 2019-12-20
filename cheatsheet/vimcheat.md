@@ -36,7 +36,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `[{`	Jump to block start  
 `$`	    move to the end of line  
 `Ctrl-O`    goes back
-`Ctrl-I`    goes forward
+`Ctrl-I`    goes forward  
 `'"`        goes to last edit
 
 ## Set Leter/Case
