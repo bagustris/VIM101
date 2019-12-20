@@ -4,7 +4,8 @@ Usage:
 $ less `vimcheat.sh` then `/typewhatyoulookfor`  
 :command <space> arguments <space> Explanation: for command inside VIM OR  
 shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word  
-
+`:set ...` can be writtent in .vimrc instead of command
+ 
 ## Basics
 `:w`	Save file  
 `:q`	Exit Vim  
@@ -12,19 +13,21 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `:q!`	Quit without saving  
 `:x`	Write file (if changes has been made) and exit  
 `:r filename`     Read filename  
-`:sav  filename`	Saves file as filename  
+`:saveas filename`	Saves file as filename (same as :wq filename OR :sav filename)  
+`$vim +linenumber` file	open file on linenumber  
 `.`     Repeats the last change made in normal mode  
 `5.`    Repeats 5 times the last change made in normal mode  
-`$vim +linenumber` file	open file on linenumber  
 
 ## Moving in the file
 `k` 	move the cursor up one line  
 `j` 	move the cursor down one line  
-`e`	    move the cursor to the end of the word  
-`b`	    move the cursor to the begining of the word  
-`0`	    move the cursor to the begining of the line  
-`G`	    move the cursor to the end of the file  
-`gg`	move the cursor to the begining of the file  
+`w`     move the cursor to beginning of next WORD
+`e`	    move the cursor to the END of the word  
+`b`	    move the cursor to the BEGINNING of the word/previous word  
+`0`	    move the cursor to the begining of the LINE  
+`G`	    move the cursor to the end of the file
+`gg`	move the cursor to the begining of the file
+`Shift-g` move to the end of file
 `L`	    move the cursor to the bottom of the screen  
 `:59`	move cursor to line 59. Replace 59 by the desired line number.  
 `20|`	move cursor to column 20.  
@@ -61,6 +64,8 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `:grep expression *.php` Returns a list of .php files contening expression  
 `gf` Open file name under cursor  
 `:b#` Goes back to previously edited buffer, after `:e`
+`tabe filename` open filename in new tab
+`tabn` same as `gt`, next window
 
 ## Interact with Unix
 `:!pwd`     Execute the pwd unix command, then returns to Vi  
@@ -76,8 +81,8 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `ctrl-w_` Maximise current window  
 `ctrl-w=` Gives the same size to all windows  
 `10 ctrl-w+` Add 10 lines to current window  
-`:vsplit` file Split window vertically  
-`:sview` file Same as :split in readonly mode  
+`:vsplit file` Split window vertically  
+`:sview file` Same as :split in readonly mode  
 `:hide` Close current window  
 `:only` Close all windows, excepted current  
 `:b 2` Open #2 in this window  
@@ -117,6 +122,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `yw` Yank word  
 `p` paste word  
 `dd` Delete current line  
+`d%` cut block, inside {...}
 `D` Cut to end of line  
 `y$` Copy to end of Line  
 `v0y` Copy from cursor to end of cursor (visually)  
@@ -125,7 +131,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `Ctrl+R`	redo  
 
 ## Search
-`/word`	Search word from top to bottom  
+`/word`	Search word from top to bottom  (press `n` for next word, `Shift-n` for previous word)
 `?word`	Search word from bottom to top  
 `\*`	Search the word under cursor  
 `/\cstring`	Search STRING or string, case insensitive  
