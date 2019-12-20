@@ -1,5 +1,4 @@
 # vimcheat.sh: the vim cheatsheet
-Ref: https://www.catswhocode.com/blog/vim-cheat-sheet-for-2016  
 Usage:  
 $ less `vimcheat.sh` then `/typewhatyoulookfor`  
 :command <space> arguments <space> Explanation: for command inside VIM OR  
