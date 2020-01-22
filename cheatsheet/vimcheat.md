@@ -89,19 +89,20 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `:b 2` Open #2 in this window  
 `:new abc.txt` edit abc.txt in new window  
 
-## Auto-completion
+## Auto-completion (without plugin, only ctags)
 `Ctrl+n Ctrl+p` (in insert mode) Complete word  
 `Ctrl+x Ctrl+l` Complete line  
 `Ctrl+x Ctrl+k` Complete with dictionnary  
 `Ctrl+x Ctrl+f` Complete filename/omni completion  
 
-## Insert
+## Insert/Edit
 `i` insert text in current cursor  
 `a` insert text after current cursor  
 `A` insert text in the end of line  
 `o` insert text below current line  
 `O` insert text above current line  
 `pu=strftime('%Y-%m-%d')` insert date (eq. '%F')
+`gq` split line, followed by number of line
 
 ## Text indent
 `:set autoindent` Turn on auto-indent  
