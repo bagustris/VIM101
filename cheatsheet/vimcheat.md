@@ -93,7 +93,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `Ctrl+n Ctrl+p` (in insert mode) Complete word  
 `Ctrl+x Ctrl+l` Complete line  
 `Ctrl+x Ctrl+k` Complete with dictionnary  
-`Ctrl+x Ctrl+f` Complete filename/omni completion  
+`Ctrl+x Ctrl+f` Complete filename/omni path completion  
 
 ## Insert/Edit
 `i` insert text in current cursor  
