@@ -9,7 +9,8 @@ This repitory consist of 3 parts:
 
 3. VIM config
 
-I used both gedit-vim-mode and vim-tiny for my editing activity.
+I used vim for simple editing commands.
+For large project (Python, Latex), I prefer to use VScode.
 
 ## Learn VIM
 1. VIMtutor
@@ -57,3 +58,6 @@ The detail is given in the directory.
   - Use fisadev to make .vimrc (disable colorscheme and neocomplcache)
 * 2019-12-20: 
   - Back to plain .vimrc (only use Kite, vimtex, etc)
+* 2021-05-11:  
+  - simplify; add information for using vim for simple editing
+
