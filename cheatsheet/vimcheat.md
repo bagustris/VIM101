@@ -4,6 +4,9 @@ $ less `vimcheat.sh` then `/typewhatyoulookfor`
 :command <space> arguments <space> Explanation: for command inside VIM OR  
 shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word  
 `:set ...` can be writtent in .vimrc instead of command
+
+## Opening
+`vim +L filename` open vim at line L
  
 ## Basics
 `:w`	Save file  
