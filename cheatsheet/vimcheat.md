@@ -34,6 +34,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `%`	    Move cursor to matching parenthesis  
 `[[`	Jump to function start  
 `[{`	Jump to block start  
+ `0` move to the the beginning of line
 `$`	    move to the end of line  
 `Ctrl-O`    goes back
 `Ctrl-I`    goes forward  
