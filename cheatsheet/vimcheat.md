@@ -6,7 +6,8 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `:set ...` can be writtent in .vimrc instead of command
 
 ## Opening
-`vim +L filename` open vim at line L
+`vim +L filename` open vim at line L  
+`vim '+normal Go' file` open file and insert last line (Go)
  
 ## Basics
 `:w`	Save file  
@@ -16,32 +17,30 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `:x`	Write file (if changes has been made) and exit  
 `:r filename`     Read filename  
 `:saveas filename`	Saves file as filename (same as :wq filename OR :sav filename)  
-`$vim +linenumber file` open file on linenumber
-`$vim '+normal Go' file` open file and insert last line (Go)
 `.`     Repeats the last change made in normal mode  
 `5.`    Repeats 5 times the last change made in normal mode  
 
 ## Moving in the file
 `k` 	move the cursor up one line  
 `j` 	move the cursor down one line  
-`w`     move the cursor to beginning of next WORD
+`w`     move the cursor to beginning of next WORD  
 `e`	    move the cursor to the END of the word  
 `b`	    move the cursor to the BEGINNING of the word/previous word  
 `0`	    move the cursor to the begining of the LINE  
-`G`	    move the cursor to the end of the file
-`gg`	move the cursor to the begining of the file
-`Shift-g` move to the end of file
+`G`	    move the cursor to the end of the file  
+`gg`	move the cursor to the begining of the file  
+`Shift-g` move to the end of file  
 `L`	    move the cursor to the bottom of the screen  
 `:59`	move cursor to line 59. Replace 59 by the desired line number.  
 `20|`	move cursor to column 20.  
 `%`	    Move cursor to matching parenthesis  
-`[[`	Jump to function start  
+`[[`	Jump to function start  '
 `[{`	Jump to block start  
- `0` move to the the beginning of line
+ `0` move to the the beginning of line  
 `$`	    move to the end of line  
-`Ctrl-O`    goes back
+`Ctrl-O`    goes back  
 `Ctrl-I`    goes forward  
-`'"`        goes to last edit
+`'.`        goes to last edit
 
 ## Set Leter/Case
 `:set ignorecase` ignore cases in searches  
@@ -68,8 +67,8 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `:args *.php` Open file list  
 `:grep expression *.php` Returns a list of .php files contening expression  
 `gf` Open file name under cursor  
-`:b#` Goes back to previously edited buffer, after `:e`
-`tabe filename` open filename in new tab
+`:b#` Goes back to previously edited buffer, after `:e`  
+`tabe filename` open filename in new tab  
 `tabn` same as `gt`, next window
 
 ## Interact with Unix
@@ -105,7 +104,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `A` insert text in the end of line  
 `o` insert text below current line  
 `O` insert text above current line  
-`pu=strftime('%Y-%m-%d')` insert date (eq. '%F')
+`pu=strftime('%Y-%m-%d')` insert date (eq. '%F')  
 `gq` split line, followed by number of line
 
 ## Text indent
@@ -120,7 +119,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 ## Syntax highlighting
 `:syntax on` Turn on syntax highlighting  
 `:syntax off` Turn off syntax highlighting  
-`:set syntax=perl` Force syntax highlighting  
+`:set syntax=python` Force syntax highlighting  
 
 # Copy Paste
 `y` Copy word in the cursor  
@@ -129,7 +128,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `yw` Yank word  
 `p` paste word  
 `dd` Delete current line  
-`d%` cut block, inside {...}
+`d%` cut block, inside {...}  
 `D` Cut to end of line  
 `y$` Copy to end of Line  
 `v0y` Copy from cursor to end of cursor (visually)  
@@ -147,6 +146,7 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `/the\>`	Search the or breathe  
 `:bufdo /searchstr/`	Search in all open files  
 `bufdo %s/something/somethingelse/g`	Search something in all the open buffers and replace it with somethingelse  
+ `:noh` clear search highlight until next
 
 ## Replace
 `:%s/foo/bar/g` 	find all "foo" replace with bar  
