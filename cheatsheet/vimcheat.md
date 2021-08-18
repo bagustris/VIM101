@@ -68,8 +68,9 @@ shortcut <space> Explanation: for shortcut, eg: ciw (C+I+W) to change inner word
 `:grep expression *.php` Returns a list of .php files contening expression  
 `gf` Open file name under cursor  
 `:b#` Goes back to previously edited buffer, after `:e`  
-`tabe filename` open filename in new tab  
-`tabn` same as `gt`, next window
+`:tabe filename` open filename in new tab  
+`:tabn` same as `gt`, next tab
+`:tabp` same as `gT`, previous tab
 
 ## Interact with Unix
 `:!pwd`     Execute the pwd unix command, then returns to Vi  
