@@ -17,7 +17,7 @@ Quit vimdiff with `:qa!`
 
 ---
 
-## Examples (in article order)
+## Examples   
 
 ### 1. changing-capitalization
 
