@@ -3,11 +3,9 @@
 This my repository to learn and configure VIM. 
 This repitory consist of 3 parts:
 
-1. Learn VIM
-
-2. VIM cheatsheet
-
-3. VIM config
+ 1. Learn VIM
+ 2. VIM cheatsheet
+ 3. VIM config
 
 I used vim for simple editing commands.
 For large project (Python, Latex), I prefer to use VScode.
@@ -23,8 +21,8 @@ $ vimtutor
 Follow the steps there, repeat until you master it.
 
 2. Pro-VIM-Tips
-This Example from Yes, I Know IT / It's FOSS article
-https://itsfoss.com/?p=14419
+This Example from Yes, I Know IT / It's FOSS article:
+https://itsfoss.com/pro-vim-tips/.  
 
 Each example come with the original text (.orig) and a Bash 
 script (.sh) invoking Vim with the command illustrated in
@@ -59,5 +57,9 @@ The detail is given in the directory.
 * 2019-12-20: 
   - Back to plain .vimrc (only use Kite, vimtex, etc)
 * 2021-05-11:  
-  - simplify; add information for using vim for simple editing
+  - simplify; add information for using vim for simple editing  
+* 2026-06-07:  
+  - update .vimrc
+  - added learn/README   https://itsfoss.com/pro-vim-tips/
+  - fixed and improved cheatsheet/vimcheat.md 
 
