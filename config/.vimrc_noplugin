@@ -1,0 +1,27 @@
+set mouse=a
+set backspace=indent,eol,start
+filetype plugin on
+filetype indent on
+syntax on
+set autoindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set scrolloff=5
+set expandtab
+set number
+set relativenumber
+set cursorline
+set nobackup
+set nowritebackup
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+set showmatch
+set showcmd
+set showmode
+set termguicolors
+set bg=dark
+colorscheme solarized8
+set clipboard=unnamedplus
